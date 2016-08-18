@@ -1,0 +1,50 @@
+#prof,id = 1,name = Dr. Oyeleye,,,
+#prof,id = 2,name = Dr. Isiaka,,,
+#prof,id = 3,name = Mrs. Balogun,,,
+#prof,id = 4,name = Mr. Abdulsalam,,,
+#prof,id = 5,name = Mr. Babatunde,,,
+#prof,id = 6,name = Mrs. Babatunde,,,
+#prof,id = 7,name = Mrs. Ajao,,,
+#prof,id = 8,name = Prof. Omidiora,,,
+#prof,id = 9,name = Engr. Tayo,,,
+#prof,id = 10,name = Prof. Ibiyemi,,,
+,,,,,
+#coursename,id = 1,name = Organization of Programming Language (CSC 401),,,
+#coursename,id = 2,name = Software Engineering (CSC 403),,,
+#coursename,id = 3,name = Computer Graphics (CSC 405),,,
+#coursename,id = 4,name = Database design & Management (CSC 407),,,
+#coursename,id = 5,name = Artificial Intelligenece (CSC 409),,,
+#coursename,id = 6,name = Project (CSC 499),,,
+#coursename,id = 7,name = Entrepreneurship Practice (GNS 401),,,
+#coursename,id = 8,name = System Modelling and Simulation (CSC 411),,,
+,,,,,
+#room,id = 1,name = R3,lab = true,size = 24,
+#room,id = 2,name = R7,lab = true,size = 60,
+#room,id = 3,name = R6,lab = false,size = 50,
+,,,,,
+#group,id = 1,name = 1O1,size = 19,,
+#group,id = 2,name = 1O2,size = 19,,
+#group,id = 3,name = 1O3,size = 19,,
+#group,id = 4,name = 104,size = 19,,
+,,,,,
+#course,professor = 1,coursename = 1,duration = 2,group = 1-2,lab = false
+#course,professor = 1,coursename = 1,duration = 2,group = 3-4,lab = false
+#course,professor = 9,coursename = 2,duration = 3,group = 1,lab = true
+#course,professor = 9,coursename = 4,duration = 3,group = 2,lab = true
+#course,professor = 4,coursename = 5,duration = 3,group = 3,lab = true
+#course,professor = 5,coursename = 8,duration = 3,group = 4,lab = true
+#course,professor = 2,coursename = 2,duration = 2,group = 3-4,lab = false
+#course,professor = 2,coursename = 2,duration = 2,group = 2,lab = false
+#course,professor = 7,coursename = 6,duration = 2,group = 1,lab = true
+#course,professor = 8,coursename = 8,duration = 2,group = 2,lab = true
+#course,professor = 10,coursename = 8,duration = 2,group = 3,lab = true
+#course,professor = 5,coursename = 3,duration = 2,group = 4,lab = true
+#course,professor = 4,coursename = 4,duration = 2,group = 3-4,lab = false
+#course,professor = 4,coursename = 4,duration = 2,group = 1-2,lab = false
+#course,professor = 5,coursename = 6,duration = 2,group = 1-2-3,lab = false
+#course,professor = 5,coursename = 6,duration = 2,group = 1-2-3,lab = false
+#course,professor = 7,coursename = 5,duration = 2,group = 1-2-3,lab = false
+#course,professor = 7,coursename = 5,duration = 2,group = 1-2,lab = false
+#course,professor = 10,coursename = 5,duration = 2,group = 3,lab = false
+#course,professor = 8,coursename = 3,duration = 2,group = 2,lab = false
+#course,professor = 8,coursename = 3,duration = 2,group = 3,lab = false
